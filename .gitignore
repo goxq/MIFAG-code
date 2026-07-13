@@ -1,0 +1,29 @@
+# Datasets, weights, and generated outputs
+Data/
+pretrained/
+checkpoints/
+runs/
+eval_res/
+tmp/
+*.pt
+*.pth
+*.ply
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/

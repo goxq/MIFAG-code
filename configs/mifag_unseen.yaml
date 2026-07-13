@@ -1,0 +1,22 @@
+setting: Unseen
+data_root: .
+split_root: data/mipa_splits
+resnet18_path: pretrained/resnet18.pth
+
+# Paper-reported MIFAG training setup (Table 4 uses 6 IAM layers for Unseen).
+variant: full
+train_img_nums: 2
+invariant_extract_layers: 6
+droprate: 0.0
+
+batch_size: 64
+lr: 4.0e-5
+epochs: 80
+weight_decay: 1.0e-3
+loss_cls: 0.3
+loss_sim: 0.05
+num_workers: 8
+
+emb_dim: 512
+n_p: 64
+n_raw: 2048

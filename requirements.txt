@@ -1,0 +1,12 @@
+torch==1.13.1
+torchvision==0.14.1
+numpy==1.24.1
+scipy==1.10.0
+scikit-learn==1.2.0
+Pillow
+PyYAML
+loguru
+einops
+open3d==0.16.0
+tensorboard
+six
